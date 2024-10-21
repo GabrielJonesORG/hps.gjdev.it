@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.title }}</title>
+  <link href="https://italia.github.io/bootstrap-italia/dist/css/bootstrap-italia.min.css" rel="stylesheet" />
+</head>
+<body>
+    {% include header.html %} <!-- Include l'header qui -->
+    
+    <main>
+        {{ content }} <!-- Qui andrà il contenuto delle pagine -->
+    </main>
+    
+    {% include footer.html %} <!-- Se hai un footer, includilo qui -->
+</body>
+</html>
